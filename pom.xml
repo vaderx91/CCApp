@@ -73,6 +73,17 @@
                 </configuration>
             </plugin>
             <plugin>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.1.2</version>
+                <configuration>
+                    <goal>jar:inplace</goal>
+                    <archive>
+                        <manifestFile>META-INF/MANIFEST.MF</manifestFile>
+                    </archive>
+                    <outputDirectory>artifacts</outputDirectory>
+                </configuration>
+            </plugin>
+            <plugin>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.8</version>

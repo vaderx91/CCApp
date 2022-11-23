@@ -7,6 +7,7 @@
       <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../Program Files/Java/jackson-databind-2.14.1.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/19-ea+3/javafx-controls-19-ea+3.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.2.3.RELEASE/spring-jcl-5.2.3.RELEASE.jar" path-in-jar="/" />
+      <element id="library" level="project" name="javafx-sdk-19" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/19-ea+3/javafx-controls-19-ea+3-win.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../Program Files/Java/json-20220924.jar" path-in-jar="/" />
