@@ -1,0 +1,24 @@
+
+E
+java:S3740 "/Provide the parametrized type for this generic.(öÂè§
+E
+java:S3740;"/Provide the parametrized type for this generic.(˜®‚Õ
+k	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Ü’˜şÿÿÿÿ
+{
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "result".(°Ïûñ8Øúñ“Ê0
+E
+java:S1197""*Move the array designators [] to the type.(„Ü’˜şÿÿÿÿ
+@
+java:S1197$"*Move the array designators [] to the type.(Ğ­êá
+m
+java:S6204/"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(åÕ¡ïùÿÿÿÿ
+[
+java:S1612/"@Replace this lambda with method reference 'Currency::getSymbol'.(åÕ¡ïùÿÿÿÿ
+Q
+java:S1854=";Remove this useless assignment to local variable "dayArch".(¿ÓÑ
+E
+java:S1197:"*Move the array designators [] to the type.(¼óıÿÿÿÿ
+B
+java:S1481=",Remove this unused "dayArch" local variable.(¿ÓÑ
+g
+java:S1128"ERemove this unused import 'java.nio.charset.MalformedInputException'.(ÖßÉ’øÿÿÿÿ8÷ñ“Ê0
