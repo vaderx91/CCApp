@@ -35,5 +35,3 @@ R
 "src/main/java/META-INF/MANIFEST.MF,6\3\63ef5783cbf71fdf39c1fd6ae6873fd812259930
 w
 G.idea/sonarlint/issuestore/1/f/1f1763f358c257ea3515417352b82b0165647ad1,4\4\441e6168af36afe9568996929caf6842abd87b08
-w
-G.idea/sonarlint/issuestore/c/b/cb8ec8468c5115f245397dbecf383e63020afc20,f\d\fdd772df8a8e769de802a79fdff9e12d339dc1e8
