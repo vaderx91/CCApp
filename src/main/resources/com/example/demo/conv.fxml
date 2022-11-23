@@ -119,7 +119,7 @@
                   <Font name="System Bold" size="14.0" />
                </font>
             </Label>
-            <ComboBox fx:id="drpSource" prefHeight="25.0" prefWidth="216.0">
+            <ComboBox fx:id="drpSource" prefHeight="25.0" prefWidth="216.0" promptText="ApiLayer Fixer">
                <VBox.margin>
                   <Insets bottom="30.0" top="10.0" />
                </VBox.margin>
