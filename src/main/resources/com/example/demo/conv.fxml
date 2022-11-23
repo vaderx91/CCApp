@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2017, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import com.gluonhq.charm.glisten.mvc.View?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<View maxHeight="-Infinity" maxWidth="-Infinity" minHeight="568.0" minWidth="320.0" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ConvController">
+   <center>
+      <VBox alignment="CENTER" style="-fx-background-color: FFFFFF;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" spacing="20.0" style="-fx-border-color: #5D4BD8; -fx-border-radius: 30;">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </VBox.margin>
+               <children>
+                  <AnchorPane>
+                     <children>
+                        <ComboBox fx:id="drpFrom" prefHeight="50.0" prefWidth="75.0" promptText="From" style="-fx-background-color: FFFFFF; -fx-background-radius: 20;" visibleRowCount="5" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane>
+                     <children>
+                        <TextField fx:id="inpAmount" alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="125.0" promptText="Enter amount" style="-fx-border-color: FFFFFF; -fx-border-radius: 20; -fx-background-color: FFFFFF; -fx-background-radius: 20;">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </AnchorPane>
+               </children>
+               <padding>
+                  <Insets bottom="15.0" top="15.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="20.0" layoutY="40.0" spacing="20.0" style="-fx-border-color: #5D4BD8; -fx-border-radius: 30;">
+               <children>
+                  <ComboBox fx:id="drpTo" prefHeight="50.0" prefWidth="75.0" promptText="To" style="-fx-background-color: FFFFFF; -fx-background-radius: 20;" visibleRowCount="5" />
+                  <Label fx:id="outPLabel" alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="50.0" prefWidth="125.0" style="-fx-background-color: FFFFFF; -fx-background-radius: 20;" text="100.0" textAlignment="CENTER" visible="false">
+                     <font>
+                        <Font size="16.0" />
+                     </font></Label>
+               </children>
+               <padding>
+                  <Insets bottom="15.0" top="15.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER">
+               <children>
+                  <ToggleButton fx:id="convertButton" contentDisplay="CENTER" layoutX="151.0" layoutY="10.0" mnemonicParsing="false" onAction="#eventConvert" prefHeight="52.0" prefWidth="114.0" style="-fx-background-color: #2A17B1; -fx-background-radius: 50; -fx-border-radius: 50; -fx-border-color: #150873;">
+                     <graphic>
+                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="83.0" text="CONVERT" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </graphic>
+                  </ToggleButton>
+               </children>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+   <bottom>
+      <VBox alignment="CENTER" style="-fx-background-color: #7D71D8;" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Change Sourse" textFill="#f8f8f8">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="drpSource" prefHeight="25.0" prefWidth="216.0">
+               <VBox.margin>
+                  <Insets bottom="30.0" top="10.0" />
+               </VBox.margin>
+            </ComboBox>
+         </children>
+      </VBox>
+   </bottom>
+   <top>
+      <HBox alignment="CENTER" prefHeight="70.0" spacing="20.0" style="-fx-background-color: #2A17B1;" BorderPane.alignment="CENTER">
+         <children>
+            <ToggleButton fx:id="menuButton" mnemonicParsing="false" onAction="#switchToMenu" prefHeight="51.0" prefWidth="59.0" style="-fx-background-color: #2A17B1;">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/ic_action_menu.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </ToggleButton>
+            <ToggleButton fx:id="langButton" layoutX="148.0" layoutY="35.0" mnemonicParsing="false" onAction="#switchToLang" prefHeight="51.0" prefWidth="59.0" style="-fx-background-color: #2A17B1;">
+               <graphic>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/ic_action_language.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </ToggleButton>
+            <ToggleButton fx:id="offlineButton" layoutX="188.0" layoutY="35.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="59.0" style="-fx-background-color: #2A17B1;">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/ic_action_download.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </ToggleButton>
+            <ToggleButton fx:id="ocrButton" layoutX="148.0" layoutY="35.0" mnemonicParsing="false" onAction="#switchToOcr" prefHeight="51.0" prefWidth="59.0" style="-fx-background-color: #2A17B1;">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/ic_action_eye_open.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </ToggleButton>
+         </children>
+      </HBox>
+   </top>
+</View>
