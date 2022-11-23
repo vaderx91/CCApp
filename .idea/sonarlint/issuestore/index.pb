@@ -11,8 +11,6 @@ b
 2src/main/java/com/example/demo/MenuController.java,b\a\ba46c2a335f9e1e9bb97bb7e8e74513d51a68494
 a
 1src/main/java/com/example/demo/OcrController.java,5\9\5903e553f1a5c2c666670c3610408c588cf9de9f
-L
-.idea/artifacts/dcca_jar.xml,c\b\cb8ec8468c5115f245397dbecf383e63020afc20
 \
 ,src/main/java/com/example/demo/Currency.java,9\4\94a87c2ed09f81415f4811fc3c57e589dd50ceec
 ]
