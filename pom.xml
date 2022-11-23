@@ -24,11 +24,7 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-controls</artifactId>
-            <version>19</version>
-        </dependency>
+
 
         <dependency>
             <groupId>com.gluonhq</groupId>
@@ -41,6 +37,12 @@
             <artifactId>util</artifactId>
             <version>4.0.16</version>
             <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>19</version>
         </dependency>
 
         <dependency>
