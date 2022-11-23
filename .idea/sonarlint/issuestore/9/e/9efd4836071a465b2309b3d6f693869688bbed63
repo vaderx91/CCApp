@@ -1,0 +1,7 @@
+
+]
+java:S1192"GDefine a constant instead of duplicating this literal "apikey" 3 times.(«ÏŽ×
+u
+java:S1488"ZImmediately return this expression instead of assigning it to the temporary variable "sb".(ðË«¼ÿÿÿÿÿ
+Q
+java:S1128";Remove this unused import 'java.net.MalformedURLException'.(ªËÞˆ
