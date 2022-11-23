@@ -26,7 +26,7 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>19-ea+3</version>
+            <version>19</version>
         </dependency>
 
         <dependency>
@@ -39,42 +39,42 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-media</artifactId>
-            <version>19-ea+3</version>
+            <version>19</version>
             <classifier>win</classifier>
         </dependency>
 
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-media</artifactId>
-            <version>19-ea+3</version>
+            <version>19</version>
             <classifier>mac</classifier>
         </dependency>
 
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-media</artifactId>
-            <version>19-ea+3</version>
+            <version>19</version>
             <classifier>linux</classifier>
         </dependency>
 
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-graphics</artifactId>
-            <version>19-ea+3</version>
+            <version>19</version>
             <classifier>win</classifier>
         </dependency>
 
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-graphics</artifactId>
-            <version>19-ea+3</version>
+            <version>19</version>
             <classifier>mac</classifier>
         </dependency>
 
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-graphics</artifactId>
-            <version>19-ea+3</version>
+            <version>19</version>
             <classifier>linux</classifier>
         </dependency>
 
@@ -87,7 +87,7 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
-            <version>19-ea+3</version>
+            <version>19</version>
         </dependency>
 
         <dependency>
